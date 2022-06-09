@@ -74,4 +74,17 @@ public class Nasabah {
         this.TglDaftar = TglDaftar;
     }
 
+
+    @Override
+    public String toString() {
+        return "" +
+            "" + getNoRek() + "'" +
+            "\t" + getNamansb() + "'" +
+            "\t\t" + getSaldo() + "'" +
+            "\t" + getNokartu() + "'" +
+            "\t" + getPin() + "'" +
+            "\t" + getTglDaftar() + "'" +
+            "";
+    }
+
 }
