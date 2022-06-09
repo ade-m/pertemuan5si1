@@ -9,6 +9,9 @@ public class Nasabah {
     public Nasabah() {
     }
 
+    public Nasabah(String NoRek) {
+        this.NoRek=NoRek;
+    }
     public Nasabah(String NoRek, String Namansb, long Saldo) {
         this.NoRek = NoRek;
         this.Namansb = Namansb;
